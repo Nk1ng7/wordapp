@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <ImageView
+        android:id="@+id/flashcard_background"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:src="@drawable/square"/>
+
+    <TextView
+        android:id="@+id/flashcard_back_audio_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_text"
+        android:layout_gravity="center"
+        />
+
+    <ImageButton
+        android:id="@+id/flashcard_audio_button"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:background="@drawable/_0734"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/flip_button_audio"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        tools:ignore="SpeakableTextPresentCheck"
+        />
+
+    <Button
+        android:id="@+id/next_button_audio"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="40dp"
+        android:text="@string/next"
+        android:textSize="22sp"
+        android:background="@color/teal_700"
+        />
+
+</FrameLayout>

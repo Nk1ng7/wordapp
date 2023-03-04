@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/titleaddnewword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/add_word"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            tools:text="Add new word" />
+
+        <EditText
+            android:id="@+id/eword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/border"
+            android:gravity="left"
+            android:hint="@string/eword"
+            android:padding="10dp"
+            android:text="New word (English)"
+            tools:ignore="RtlHardcoded"
+            tools:text="New word (English)" />
+
+        <Button
+            android:id="@+id/en_pronounciation"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/en_pronounciation"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            tools:text="English pronounciation" />
+
+        <EditText
+            android:id="@+id/lword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/border"
+            android:gravity="left"
+            android:hint="@string/lword"
+            android:padding="10dp"
+            android:text="@string/new_word_lithuanian"
+            tools:ignore="RtlHardcoded"
+            tools:text="New word (Lithuanian)" />
+
+        <Button
+            android:id="@+id/l_pronounciation"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/l_pronounciation"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            tools:text="Lithuanian pronounciation" />
+
+        <EditText
+            android:id="@+id/ukword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/border"
+            android:gravity="left"
+            android:hint="@string/eword"
+            android:padding="10dp"
+            android:text="New word (Ukrainian)"
+            tools:ignore="RtlHardcoded"
+            tools:text="New word (Ukrainian)" />
+
+        <Button
+            android:id="@+id/uk_pronounciation"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/uk_pronounciation"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            tools:text="Ukrainian pronounciation" />
+
+        <EditText
+            android:id="@+id/fword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/border"
+            android:gravity="left"
+            android:hint="@string/eword"
+            android:padding="10dp"
+            android:text="New word (French)"
+            tools:ignore="RtlHardcoded"
+            tools:text="New word (French)" />
+
+        <Button
+            android:id="@+id/fr_pronounciation"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/fr_pronounciation"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            tools:text="French pronounciation" />
+
+        <TextView
+            android:id="@+id/picture"
+            android:layout_width="280dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-80dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/pictureadd"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            tools:text="Picture" />
+
+        <Button
+            android:id="@+id/browse_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:onClick="openFilePicker"
+            android:text="Browse" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="10dp"
+            android:text="Add" />
+
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-56dp"
+            android:text="Cancel" />
+
+
+    </LinearLayout>
+
+</FrameLayout>
